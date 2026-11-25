@@ -1,12 +1,12 @@
-# 🌾 Rice Leaf Disease Detection Using Deep Learning
+# Rice Leaf Disease Detection Using Deep Learning
 
-## 📌 Project Overview
+## Project Overview
 
 Rice Leaf Disease Detection is a deep learning project developed to identify and classify rice leaf diseases using image classification techniques. The project uses MobileNetV2 transfer learning and data augmentation to classify different types of rice leaf diseases.
 
 The objective is to develop an automated classification approach that can support the early identification of rice leaf diseases.
 
-## 🎯 Project Objectives
+## Project Objectives
 
 - Analyze and understand the rice leaf disease dataset.
 - Perform image preprocessing and visualization.
@@ -15,7 +15,7 @@ The objective is to develop an automated classification approach that can suppor
 - Compare model performance using evaluation metrics.
 - Save trained models for future predictions.
 
-## 📂 Dataset Description
+## Dataset Description
 
 The dataset contains **119 rice leaf images** belonging to three disease categories.
 
@@ -26,7 +26,7 @@ The dataset contains **119 rice leaf images** belonging to three disease categor
 | Bacterial leaf blight | 40 |
 | **Total** | **119** |
 
-## 🛠️ Technologies and Libraries Used
+## Technologies and Libraries Used
 
 - Python
 - TensorFlow
@@ -40,7 +40,7 @@ The dataset contains **119 rice leaf images** belonging to three disease categor
 - Pillow (PIL)
 - OpenCV
 
-## 🤖 Models Developed
+## Models Developed
 
 ### 1. MobileNetV2 Model
 
@@ -61,7 +61,7 @@ An augmented model was developed using image transformation techniques to increa
 - Zooming
 - Contrast adjustment
 
-## 📊 Model Evaluation
+## Model Evaluation
 
 The models were evaluated using the following performance metrics:
 
@@ -76,7 +76,7 @@ The performance comparison results are available in:
 
 `RiceLeaf_Model_Comparison.csv`
 
-## 🔄 Project Workflow
+## Project Workflow
 
 1. Dataset extraction and organization
 2. Exploratory Data Analysis (EDA)
@@ -88,25 +88,20 @@ The performance comparison results are available in:
 8. Model performance comparison
 9. Saving trained models and results
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 Rice-Leaf-Disease-Detection/
 │
 ├── RiceLeaf disease detection.ipynb
-│
 ├── RiceLeaf_Disease_Detection_Model.keras
-│
 ├── RiceLeaf_Augmented_Model.keras
-│
 ├── RiceLeaf_Model_Comparison.csv
-│
 ├── requirements.txt
-│
 └── README.md
 ```
 
-## ⚙️ Installation and Setup
+## Installation and Setup
 
 ### 1. Clone the Repository
 
@@ -134,7 +129,7 @@ jupyter notebook
 
 Open `RiceLeaf disease detection.ipynb` to explore the complete project implementation.
 
-## 💾 Trained Models
+## Trained Models
 
 The repository includes two saved Keras models:
 
@@ -143,7 +138,7 @@ The repository includes two saved Keras models:
 
 These models can be loaded using TensorFlow Keras for further evaluation and prediction.
 
-## 📈 Project Outcomes
+## Project Outcomes
 
 - Explored and analyzed three rice leaf disease categories.
 - Developed deep learning models using MobileNetV2 transfer learning.
@@ -151,13 +146,13 @@ These models can be loaded using TensorFlow Keras for further evaluation and pre
 - Evaluated and compared model performance.
 - Saved trained models for future use.
 
-## 📝 Conclusion
+## Conclusion
 
 This project demonstrates the application of deep learning and transfer learning for automated rice leaf disease classification. MobileNetV2 was used to identify Leaf smut, Brown spot, and Bacterial leaf blight. Data augmentation was applied to increase image diversity and support better model generalization.
 
 The project provides a foundation for developing automated agricultural disease detection solutions. Further improvements can be achieved by using larger and more diverse datasets and optimizing the models for real-world applications.
 
-## 👨‍💻 Author
+## Author
 
 **Naveen Gnanavel**
 
@@ -166,4 +161,4 @@ The project provides a foundation for developing automated agricultural disease 
 
 ---
 
-⭐ If you find this project useful, consider giving the repository a star!
+If you find this project useful, consider giving the repository a star.
